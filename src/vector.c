@@ -16,14 +16,14 @@
 
 #include <vector.h>
 
-vector_init(Vector dst, double x, double y, double z)
+void vector_init(Vector dst, double x, double y, double z)
 {
     dst[X] = x;
     dst[Y] = y;
     dst[Z] = z;
 }
 
-vector_copy(Vector dst, Vector src)
+void vector_copy(Vector dst, Vector src)
 {
     dst[X] = src[X];
     dst[Y] = src[Y];
