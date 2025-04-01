@@ -15,17 +15,3 @@
  */
 
 #include <vector.h>
-
-void vector_init(Vector dst, double x, double y, double z)
-{
-    dst[X] = x;
-    dst[Y] = y;
-    dst[Z] = z;
-}
-
-void vector_copy(Vector dst, Vector src)
-{
-    dst[X] = src[X];
-    dst[Y] = src[Y];
-    dst[Z] = src[Z];
-}
