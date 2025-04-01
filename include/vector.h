@@ -17,6 +17,10 @@
 #ifndef VECTOR_H
 #define VECTOR_H
 
+#define X 0
+#define Y 1
+#define Z 2
+
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
