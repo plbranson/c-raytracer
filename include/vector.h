@@ -103,16 +103,16 @@ extern "C"
     /// @return the squared length of the Vector
     double vector_squared_length(Vector src);
 
-    /// @brief Calculates the normalized (unit) Vector
-    /// @param dst the destination Vector array
-    /// @param src the source Vector array
-    void vector_normalize(Vector dst, Vector src);
-
-    /// @brief Calculates the dot product of two Vectors
+   /// @brief Calculates the dot product of two Vectors
     /// @param lhs the left-hand-side Vector array
     /// @param rhs the right-hand-side Vector array
     /// @return the dot product of two Vectors
     double vector_dot_product(Vector lhs, Vector rhs);
+
+    /// @brief Calculates the normalized (unit) Vector
+    /// @param dst the destination Vector array
+    /// @param src the source Vector array
+    void vector_normalize(Vector dst, Vector src);
 
     /// @brief Calculates the cross product of two Vectors
     /// @param dst the destination Vector array
