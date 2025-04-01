@@ -30,6 +30,11 @@ void vector_copy(Vector dst, Vector src)
     dst[Z] = src[Z];
 }
 
+void vector_print(Vector dst) 
+{
+    printf("Vector[x=%lf y=%lf z=%lf]\n", dst[X], dst[Y], dst[Z]);
+}
+
 void vector_add(Vector dst, Vector lhs, Vector rhs)
 {
     dst[X] = lhs[X] + rhs[X];

@@ -45,6 +45,10 @@ extern "C"
     /// @param src the source Vector array
     void vector_copy(Vector dst, Vector src);
 
+    /// @brief Prints out the Vector in a readable format
+    /// @param src the source Vector array
+    void vector_print(Vector src);
+
     /// @brief Calculates the sum of a Vector and another Vector
     /// @param dst the destination Vector array
     /// @param lhs the left-hand-side Vector array
