@@ -17,6 +17,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/// @brief The main (driver) function
+/// @param argc the argument count
+/// @param argv the argument vector
+/// @return EXIT_SUCCESS
 int main(int argc, const char *argv[])
 {
     printf("Hello, World!\n");
